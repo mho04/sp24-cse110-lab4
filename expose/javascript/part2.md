@@ -1,4 +1,4 @@
-It prints 3 because var isn't block scoped but rather function or global scoped and line 12 is after the loop. The function is called with 3 prices, so the loop will run 3 times resulting in i being 3.
+1. It prints 3 because var isn't block scoped but rather function or global scoped and line 12 is after the loop. The function is called with 3 prices, so the loop will run 3 times resulting in i being 3.
 It prints 150 because that is half of 300, the last element in the array to discount.
 It prints 150 for the same reasoning as line 12 and 13.
 The function will return an array with 3 elements [50, 100, 150] after each element goes through the loop and is discounted give percentage, 0.5.
